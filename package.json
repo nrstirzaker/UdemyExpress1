@@ -2,9 +2,11 @@
   "name": "rest-api-with-node-express-fast-track-for-beginners",
   "version": "1.0.0",
   "description": "Udemy Course",
-  "main": "server.ts",
+  "main": "dist/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +17,7 @@
     "grunt-ts": "^6.0.0-beta.21",
     "gulp-typescript": "^5.0.0",
     "gulp-util": "^3.0.8",
+    "nodemon": "^1.18.7",
     "typescript": "^3.2.1",
     "watchify": "^3.11.0"
   },

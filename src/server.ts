@@ -7,4 +7,4 @@ app.get("/",(req,res,next) => {
 });
 
 const port = process.env.PORT || 8080;
-app.listen(port, () => console.log("server started on port " + port));
+app.listen(port, () => console.log("Server started on port " + port));
