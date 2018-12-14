@@ -1,6 +1,8 @@
 {
+    // Comments are allowed!
     "uid": "server",
     "append": true,
     "watch": true,
-    "script": "dist/server.js"
+    "script": "dist/server.js",
+    "command":"C:/Program Files/nodejs/node"
 }

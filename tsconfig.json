@@ -2,7 +2,10 @@
   "compilerOptions": {
     "noImplicitAny": true,
     "target": "es5",
-    "rootDir": "./src",
+    "rootDir": "./",
+    "include": [
+      "src/**/*"
+    ],
     "outDir": "./dist"                      
   }
 }
