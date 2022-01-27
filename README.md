@@ -1,4 +1,4 @@
-forever start .\forever\development.json //start forever
+npm start //start server
 
 
 grunt //typescript compiler
